@@ -35,4 +35,9 @@ public class CalculatorController {
         System.out.println("result: " + result);
         return calculatorDTO;
     }
+
+    @GetMapping("/jenkinsTest")
+    public void test() {
+        System.out.println("jenkins 변화 감지 테스트");
+    }
 }
