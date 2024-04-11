@@ -38,6 +38,6 @@ public class CalculatorController {
 
     @GetMapping("/jenkinsTest")
     public void test() {
-        System.out.println("jenkins 변화 감지 테스트2");
+        System.out.println("jenkins 변화 감지 테스트ㅇ2");
     }
 }
